@@ -1,0 +1,101 @@
+* {
+    margin: 0 auto;
+}
+.home-page {
+    background: url(./images/hero.jpeg);
+    height: 500px !important;
+  
+}
+.navbar {
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    position: fixed;
+    display: flex;
+    justify-content: space-around !important;
+    align-items: center;
+    width: 1000px;
+    margin-left: 20px;
+    z-index: 2;
+}
+.navbar .form-control {
+    background-color: transparent;
+    border-color: brown;
+    
+}
+.home-page .home-page-title {
+    padding-top: 80px;
+    padding-left: 130px;
+}
+.second-title h3 {
+    padding-bottom: 50px;
+}
+.second-title {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    padding-top: 50px;
+    background-color: #E8ECEB;
+   
+}
+.second-title .card-img-top {
+    height: 250px;
+}
+.third-title {
+    display: flex;
+    padding-top: 100px;
+    padding-left: 60px;
+    padding-bottom: 50px;
+}
+.third-title h2 {
+    color: rgb(134, 76, 76);
+}
+.third-title button {
+    width: 120px;
+    height: 50px;
+    color: white;
+    background-color:rgb(134, 76, 76) ;
+    border: none;
+
+}
+.third-title button:hover {
+    background-color: rgb(161, 110, 110) ;
+}
+.news-letter {
+    background-color: #E9DCD5;
+    padding-top: 50px;
+    display: flex;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.news-letter p {
+    font-weight: bold;
+    font-size: small;
+}
+.news-letter h4 {
+    color:rgb(134, 76, 76) ;
+    padding-top: 60px;
+}
+.news-letter .email {
+    width: 383px;
+    margin-left: 6px;
+}
+.news-letter input{
+    height: 40px;
+    border: none;
+    text-align: center;
+   
+}
+.news-letter .name {
+    margin-bottom: 5px;
+}
+.news-letter .name input {
+    margin-left: 8px;
+}
+.news-letter .image img {
+    width: 420px;
+    
+} 
+footer {
+    background-color:#E9DCD5 ;
+}
